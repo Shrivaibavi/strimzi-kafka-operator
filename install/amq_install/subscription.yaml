@@ -9,7 +9,7 @@ metadata:
     app: kafka-sample
   name: kafka-sub
 spec:
-    channel: ramen-busybox/ramen-gitops
+    channel: ramen-gitops
     placement:
       placementRef:
         kind: PlacementRule
