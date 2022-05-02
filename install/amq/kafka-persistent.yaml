@@ -30,7 +30,7 @@ spec:
         type: persistent-claim
         size: 100Gi
         deleteClaim: false
-        class: ocs-external-storagecluster-ceph-rbd
+        class: ocs-storagecluster-ceph-rbd-mirror
     template:
       statefulset:
         metadata:
@@ -42,7 +42,7 @@ spec:
       type: persistent-claim
       size: 100Gi
       deleteClaim: false
-      class: ocs-external-storagecluster-ceph-rbd
+      class: ocs-storagecluster-ceph-rbd-mirror
     template:
       statefulset:
         metadata:

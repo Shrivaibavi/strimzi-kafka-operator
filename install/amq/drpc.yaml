@@ -7,7 +7,7 @@ metadata:
   labels:
     app: kafka-sample
 spec:
-  preferredCluster: akrai-c1
+  preferredCluster: sraghave-cluster2
   drPolicyRef:
     name: odr-policy
   placementRef:
