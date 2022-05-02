@@ -6,7 +6,7 @@ metadata:
     apps.open-cluster-management.io/github-branch: main
     apps.open-cluster-management.io/github-path: install/amq_install
   labels:
-    app: kafka-sample
+    app: kafka
   name: kafka-sub
 spec:
     channel: ramen-gitops

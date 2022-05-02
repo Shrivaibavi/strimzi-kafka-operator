@@ -3,9 +3,9 @@ apiVersion: apps.open-cluster-management.io/v1
 kind: PlacementRule
 metadata:
   name: kafka-placement
-  namespace: kafka-sample
+  namespace: kafka
   labels:
-    app: kafka-sample
+    app: kafka
 spec:
   clusterConditions:
     - type: ManagedClusterConditionAvailable

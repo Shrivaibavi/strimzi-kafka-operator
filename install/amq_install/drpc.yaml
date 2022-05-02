@@ -3,9 +3,9 @@ apiVersion: ramendr.openshift.io/v1alpha1
 kind: DRPlacementControl
 metadata:
   name: kafka-drpc
-  namespace: kafka-sample
+  namespace: kafka
   labels:
-    app: kafka-sample
+    app: kafka
 spec:
   preferredCluster: akrai-c1
   drPolicyRef:
