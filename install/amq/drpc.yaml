@@ -15,4 +15,4 @@ spec:
     name: kafka-placement
   pvcSelector:
     matchLabels:
-      appname: kafka
+      appname: "strimzi.io/cluster: my-cluster"
