@@ -9,7 +9,7 @@ metadata:
 spec:
   preferredCluster: sraghave-cluster2
   drPolicyRef:
-    name: odr-policy
+    name: drpolicy-sample
   placementRef:
     kind: PlacementRule
     name: kafka-placement
