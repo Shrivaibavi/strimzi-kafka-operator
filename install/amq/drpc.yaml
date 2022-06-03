@@ -7,7 +7,7 @@ metadata:
   labels:
     app: kafka-sample
 spec:
-  preferredCluster: sraghave-cluster2
+  preferredCluster: sraghave-c2
   drPolicyRef:
     name: drpolicy-sample
   placementRef:
@@ -15,4 +15,4 @@ spec:
     name: kafka-placement
   pvcSelector:
     matchLabels:
-      appname: "strimzi.io/cluster: my-cluster"
+      strimzi.io/cluster: my-cluster
