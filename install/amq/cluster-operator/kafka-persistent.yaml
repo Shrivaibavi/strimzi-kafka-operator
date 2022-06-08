@@ -29,7 +29,7 @@ spec:
       - id: 0
         type: persistent-claim
         size: 100Gi
-        deleteClaim: false
+        deleteClaim: true
         class: ocs-storagecluster-ceph-rbd-mirror
     template:
       statefulset:
@@ -41,7 +41,7 @@ spec:
     storage:
       type: persistent-claim
       size: 100Gi
-      deleteClaim: false
+      deleteClaim: true
       class: ocs-storagecluster-ceph-rbd-mirror
     template:
       statefulset:
